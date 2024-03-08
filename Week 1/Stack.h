@@ -20,7 +20,6 @@ int StackSize(Stack *ps);
 void ClearStack(Stack *ps);
 void TraverseStack(Stack *ps, void (*pf)(StackEntry));
 void Display(StackEntry e);
-int precedence(char op);
 
 #endif
 
